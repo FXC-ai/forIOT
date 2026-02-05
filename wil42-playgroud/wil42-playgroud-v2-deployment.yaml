@@ -14,7 +14,7 @@ spec:
         app: wil42-playground-v2
     spec:
       containers:
-        - image: hub.docker.com/r/wil42/playground:v2
+        - image: wil42/playground:v2
           name: wil42-playground-v2
           ports:
             - containerPort: 8888
